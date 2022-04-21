@@ -1,7 +1,7 @@
 import react, { createContext } from "react";
-import { card } from "./Data";
+import { card, services } from "./Data";
 
-const init = { card };
+const init = { card, services };
 
 export const GlobalContext = createContext(init);
 
