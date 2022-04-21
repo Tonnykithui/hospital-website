@@ -2,6 +2,8 @@ import React from 'react'
 
 const Appointment = () => {
   return (
+    <>
+    <p className='text-center text-slate-400 font-semibold'>Appointments</p>
     <div className='Appointment bg-slate-100'>
         <div className="calendar">
             <img src="../.././img/calendar.svg" alt="calendar" />
@@ -12,6 +14,7 @@ const Appointment = () => {
             <button className='Appointment-btn'>Schedule</button>
         </div>
     </div>
+    </>
   )
 }
 

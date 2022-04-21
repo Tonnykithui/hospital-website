@@ -8,6 +8,7 @@ import { GlobalProvider } from "./context/GlobalContext";
 import Speciality from "./components/Speciality/Speciality";
 import Appointment from "./components/Appointment/Appointment";
 import Team from "./components/Team/Team";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Speciality />
         <Appointment />
         <Team />
+        <Footer />
       </GlobalProvider>
     </div>
   );

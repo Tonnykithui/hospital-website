@@ -3,6 +3,7 @@ import { AiOutlineFieldTime } from "react-icons/ai";
 
 const Card = () => {
   return (
+    <>
     <div className="info-card">
         <div className="info-head">
             <h1>Opening Hours</h1>
@@ -19,6 +20,7 @@ const Card = () => {
             </div>
         </div>            
     </div>
+    </>
   )
 }
 

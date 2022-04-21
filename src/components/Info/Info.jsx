@@ -7,6 +7,7 @@ const Info = () => {
   return (
     <div className='info'>
         <div className="wrapper">
+        <p className='text-center text-blue-400 mb-4 font-semibold'>Services</p>
             <div className="info-wrapper">
                 <Card />
                 <Cards />
