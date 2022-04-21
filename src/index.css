@@ -179,3 +179,117 @@
 .med-services-det{
   @apply text-center font-semibold text-2xl mt-5;
 }
+
+
+/*  SPECIALITY  */
+.speciality{
+  @apply bg-white w-screen md:p-7 p-5;
+}
+
+.speciality-items{
+  @apply md:p-9 relative;
+}
+
+.speciality-wording{
+  @apply flex flex-col;
+}
+
+.speciality-wording h1{
+  @apply text-3xl font-semibold mb-4;
+}
+
+.speciality-wording p:nth-child(odd){
+  @apply md:w-2/5 mb-4;
+}
+
+.speciality-online-appointments{
+  @apply rounded-xl bg-yellow-400 md:w-3/4 md:p-7 p-2;
+}
+
+.speciality-online-appointments p{
+  @apply w-3/4 p-2;
+}
+
+.speciality-online-appointments h1{
+  @apply text-3xl font-semibold;
+}
+
+.speciality-online-appointments button{
+  @apply p-2 bg-red-500 text-white rounded-full text-lg font-semibold shadow-2xl;
+}
+
+.speciality-online-appointments button:hover{
+  @apply bg-blue-400 ;
+}
+
+.features{
+  @apply font-semibold text-slate-400;
+}
+
+.speciality-img{
+  @apply h-80 w-96 hidden md:block md:absolute md:top-10 lg:right-36 md:right-2;
+}
+
+
+/*  APPOINTMENT  */
+.Appointment{
+  @apply grid md:grid-cols-2 gap-3 md:p-16 p-5;
+}
+
+.calendar{
+  @apply md:p-12 p-3;
+}
+
+.Appointment-wording{
+  @apply md:p-12 p-3;
+}
+
+.Appointment-wording h1{
+  @apply md:text-5xl text-2xl font-semibold mb-3;
+}
+
+.Appointment-wording p{
+  @apply mb-3;
+}
+
+.Appointment-btn{
+  @apply pt-2 pb-2 pl-4 pr-4 bg-red-500 text-white rounded-full text-lg font-semibold;
+}
+
+
+/*   TEAM   */
+.team{
+  @apply bg-white p-14;
+}
+.team p{
+  @apply text-center text-slate-500 ;
+} 
+.team h1{
+  @apply text-center text-3xl font-semibold;
+}
+
+.doctors-cards{
+  @apply grid grid-cols-1 md:grid-cols-3 gap-3 justify-center mt-4;
+}
+
+.doctor{
+  @apply rounded-lg bg-slate-200 p-5;
+}
+
+.doctor-img{
+  @apply w-full flex justify-center;
+}
+
+.doctor h2{
+  @apply text-center text-2xl font-semibold;
+}
+.doctor img{
+  @apply rounded-full h-20 w-20 ;
+}
+
+.socials{
+  @apply flex flex-row justify-center mt-3 mb-3;
+}
+.soc{
+  @apply bg-red-300 mr-2 rounded-full p-2 text-blue-400;
+}

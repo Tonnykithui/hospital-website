@@ -5,6 +5,9 @@ import Info from "./components/Info/Info";
 import Services from "./components/Services/Services";
 import "./index.css";
 import { GlobalProvider } from "./context/GlobalContext";
+import Speciality from "./components/Speciality/Speciality";
+import Appointment from "./components/Appointment/Appointment";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Hero />
         <Info />
         <Services />
+        <Speciality />
+        <Appointment />
+        <Team />
       </GlobalProvider>
     </div>
   );
